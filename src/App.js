@@ -1,27 +1,15 @@
-import Header from "./Header";
-import Content from "./Content";
-import Total from "./Total";
+
+import Hello from "./Hello"
 
 const App = () => {
-  const course = 'Half Stack application development'
-  const part1 = {
-    name: 'Fundamentals of React',
-    exercises: 10
-  }
-  const part2 = {
-    name: 'Using props to pass data',
-    exercises: 7
-  }
-  const part3 = {
-    name: 'State of a component',
-    exercises: 14
-  }
+  const name = 'Peter'
+  const age = 10
 
   return (
     <div>
-      <Header course={course} />
-      <Content course={course} />
-      <Total course={course} />
+      <h1>Greetings</h1>
+      <Hello name="Maya" age={26 + 10} />
+      <Hello name={name} age={age} />
     </div>
   )
 }

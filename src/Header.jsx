@@ -2,7 +2,7 @@ const Header = (props) => {
     
     return (
       <div>
-        {props.course}
+        {props.course.parts}
       </div>
     )
   }

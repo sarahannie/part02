@@ -2,9 +2,9 @@ const Part = (props) => {
     
     return (
       <div>
-        {props.part1}{props.exercises1}
-        {props.part2}{props.exercises2}
-        {props.part3}{props.exercises3}
+       <div key={1}>{props.course.parts}</div>
+       <div key={2}>{props.course.parts}</div>
+       <div key={3}>{props.course.parts}</div>
       </div>
     )
   }

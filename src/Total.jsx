@@ -2,7 +2,7 @@ const Total = (props) => {
     
     return (
       <div>
-        {props.course}
+        {props.course.name}
       </div>
     )
   }
