@@ -12,7 +12,7 @@ const Statistics = ({good, neutral, bad, avg, total}) =>{
         )
     }
     return(<div>
-        <StatisticLine  text='good'  value={good}/>
+        good{good}
         <br/>
         neutral{neutral}
         <br/>
